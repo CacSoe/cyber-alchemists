@@ -1,7 +1,8 @@
 {
   "scripts": {
-    "start": "vite"
-  },
+  "build": "vite build",
+  "postinstall": "chmod +x node_modules/.bin/vite"
+},
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.44",
